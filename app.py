@@ -19,7 +19,7 @@ def get_response(user_input):
         return f"Today is {datetime.now().strftime('%A, %B %d, %Y')}."
     elif "how are you" in user_input:
         return "Functioning optimally, thank you."
-    elif "creator" in user_input:
+    elif "creator" in user_input or "created" in user_input or "developer" in user_input or "create" in user_input or "developed" in user_input or "develop" in user_input:
         return "I was developed by Lander Bombasi."
     elif "joke" in user_input:
         return "Why don’t robots get scared? Because they have nerves of steel."
