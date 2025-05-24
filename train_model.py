@@ -7,7 +7,7 @@ import joblib
 import os
 
 # Load dataset with your path
-data = pd.read_csv(r'C:\Users\PUP-CITE-CAD17\Documents\Project\API_BackEnd-1\csv\student_habits_performance.csv')
+data = pd.read_csv(r'C:\Users\PUP-CITE-CAD17\Documents\Project\API_BackEnd\csv\student_habits_performance.csv')
 
 # Map extracurricular participation to numeric
 data['extracurricular_participation'] = data['extracurricular_participation'].map({'Yes': 1, 'No': 0})
